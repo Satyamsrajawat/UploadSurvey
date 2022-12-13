@@ -1,0 +1,31 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "upload.html",
+  "module": "dist/upload.js",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 Edge version",
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "cssnano": "^4.1.11",
+    "parcel": "latest",
+    "postcss": "^8.4.20",
+    "@azure/storage-blob": "^12.12.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.11",
+    "parcel": "latest",
+    "postcss": "^8.4.20",
+    "@azure/storage-blob": "^12.12.0"
+
+  }
+}

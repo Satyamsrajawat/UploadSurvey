@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <!-- <style>
+     #holder.hover { border: 10px dashed #0c0 !important; }
+   </style> -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Drag & Drop or Browse: File Upload</title>
+   <link rel="stylesheet" href="/style.e308ff8e.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <script src="/style.e308ff8e.js"></script></head>
+  <body>
+
+    <!-- <div id="dropContainer" style="border:1px solid black;height:100px;">
+      Drop Here
+   </div> -->
+
+    <!-- <button id="select-button">Select Files</button>
+    <input type="file" id="file-input" multiple style="display: none;"> -->
+
+    <!-- <div id="holder" style="width:200px; height:200px; border: 10px dashed #ccc"></div> -->
+
+    <div id="holder" class="drag-area">
+      <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+      <header>Drag & Drop to Upload File</header>
+      <span>OR</span>
+      <button id="select-button">Select Files</button>
+      <input type="file" id="file-input" style="display: none;">
+    </div>
+
+<div>
+  <section class="progress-area"></section>
+  <section class="uploaded-area on-progress"></section>
+</div>
+    
+    
+    <script src="/upload.e830027a.js"></script>
+  </body>
+</html>
